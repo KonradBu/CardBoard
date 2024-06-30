@@ -7,6 +7,7 @@ namespace CardBoard
         public int rating { get; set; }
         public Collection collection { get; set; }
         public DeckCollection deckCollection { get; set; }
+        public Deck activedeck { get; set; }
         public Player(string name, int id)
         {
             this.name = name;
